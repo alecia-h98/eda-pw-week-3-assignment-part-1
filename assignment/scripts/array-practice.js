@@ -98,7 +98,9 @@ let colors = ['orange', 'yellow', 'green', 'teal'];
 //      Don't forget! Use console.log to verify that the `colors`
 //      array only contains three items now, AND to verify that `lastColor`
 //      contains the value "teal".)
-
+let lastColor = colors.pop();
+console.log('Removed color:', lastColor);
+console.log('Updated array list:', colors);
 
 // Example: Remove the first animal using the Array.shift method.
 removedAnimal = animalArray.shift();
@@ -108,9 +110,9 @@ console.log('The animals are now', animalArray);
 // 4.d. TODO: Remove the first value from the `colors` array and store it
 //      inside a new variable called `firstColor`.
 //      To verify that your code worked, console.log `firstColor`!  
-colors
-
-
+let firstColor = colors.shift();
+console.log('Removed first element:', firstColor);
+console.log('Updated array:', colors);
 
 // STRETCH GOALS:
 
